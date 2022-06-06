@@ -21,6 +21,7 @@ public class DemoApplication implements CommandLineRunner {
 		// Save some persons
 		personRepository.save(new Person("John", "Snow"));
 		personRepository.save(new Person("Aria", "Stark"));
+		personRepository.save(new Person("Sansa", "Stark"));
 		personRepository.save(new Person("Tyrion", "Lannister"));
 
 		// fetch all persons
